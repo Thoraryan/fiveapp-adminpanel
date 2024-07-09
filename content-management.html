@@ -20,16 +20,20 @@
    <body>
       <div class="admin_header">
          <div class="row justify-content-between align-items-center">
-            <div class="col-2 text-center">
+            <div class="col-custom d-flex gap-5 align-items-center px-4">
+                  <button type="button" class="toggle" id="toggle">
+                  <span></span>
+                  </button>
                <a class="logo" href="dashboard.html">
                   <img src="assets/img/five.png" alt="">
                </a>
             </div>
             <div class="col-auto">
-               <div class="col-auto d-flex align-items-center"> 
+               <div class="col-auto d-flex align-items-center">
                   <div class="dropdown Profile_dropdown">
-                     <button class="btn btn-secondary" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                     <img src="assets/img/user.png" alt="">
+                     <button class="btn btn-secondary" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <img src="assets/img/user.png" alt="">
                      </button>
                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                         <li><a class="dropdown-item" href="view-profile.html">View Profile</a></li>
@@ -54,34 +58,46 @@
             <div class="row mb-4">
                <div class="col-md-3">
                   <div class="staticss_box">
-                     <span>Total Post</span>
-                     <div class="static_data">
-                        <strong>250 +</strong>
+                     <span class="fs-5 mb-2 text-danger fw-bold">Total Post</span>
+                     <div class="static_data d-flex justify-content-between gap-2 px-3">
+                        <div class="card-icon-dash">
+                           <i class="fas fa-icons"></i>
+                        </div>
+                        <strong class="fs-3">250 +</strong>
                      </div>
                   </div>
                </div>
                <div class="col-md-3">
                   <div class="staticss_box">
-                     <span>Total Images
+                     <span class="fs-5 mb-2 text-danger fw-bold">Total Images
                      </span>
-                     <div class="static_data">
-                        <strong>150 +</strong>
+                     <div class="static_data d-flex justify-content-between gap-2 px-3">
+                         <div class="card-icon-dash">
+                           <i class="fas fa-images"></i>
+                        </div>
+                        <strong class="fs-3">150 +</strong>
                      </div>
                   </div>
                </div>
                <div class="col-md-3">
                   <div class="staticss_box">
-                     <span>Total Video</span>
-                     <div class="static_data">
-                        <strong>100 +</strong>
+                     <span class="fs-5 mb-2 text-danger fw-bold">Total Video</span>
+                     <div class="static_data d-flex justify-content-between gap-2 px-3">
+                         <div class="card-icon-dash">
+                           <i class="fas fa-video"></i>
+                        </div>
+                        <strong class="fs-3">100 +</strong>
                      </div>
                   </div>
                </div>
                <div class="col-md-3">
                   <div class="staticss_box">
-                     <span>Total Challenges</span>
-                     <div class="static_data">
-                        <strong>250 +</strong>
+                     <span class="fs-5 mb-2 text-danger fw-bold">Total Challenges</span>
+                     <div class="static_data d-flex justify-content-between gap-2 px-3">
+                         <div class="card-icon-dash">
+                           <i class="fa fa-tasks"></i>
+                        </div>
+                        <strong class="fs-3">250 +</strong>
                      </div>
                   </div>
                </div>
@@ -266,6 +282,7 @@
       <script src="assets/vendor/jquery.min.js"></script>
       <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
       <script src="assets/vendor/owl/owl.carousel.min.js"></script> 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
       <script src="assets/js/main.js"></script> 
    </body>
 </html>

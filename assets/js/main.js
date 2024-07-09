@@ -302,3 +302,15 @@ btn.onclick = function () {
     $('.admin_siderbarr')[0].classList.toggle('sidebarshow');
     $('.admin_contentpart')[0].classList.toggle('content-part-width');
 }
+$(document).ready(function () {
+    var selector = $('.admin_siderbarr a');
+    $(selector).on('click', function () {
+        $(selector).removeClass('active');
+        $(this).addClass('active');
+
+        // var target = $(this).data('target');
+        // $('.profile-content').removeClass('active');
+        // $(target).addClass('active');
+    });
+    // $(selector).first().trigger('click');
+});
