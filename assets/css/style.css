@@ -482,6 +482,7 @@ h6 {
   border-color: #E6E6E6 !important;
   text-transform: uppercase;
   padding: 12px 20px;
+  text-align: center;
 }
 .table>:not(:first-child) {
   border-top: 0;
@@ -492,6 +493,7 @@ h6 {
   white-space: nowrap;
   font-size: 16px;
   transition: 0.3s all;
+  text-align: center;
   padding: 12px 20px;
   color: rgba(98, 98, 98, 1);
 }

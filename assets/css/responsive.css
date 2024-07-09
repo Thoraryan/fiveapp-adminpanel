@@ -58,12 +58,58 @@
 .dashboardmain {
     height: 297px;
 }
+.col-custom {
+    flex: 0 0 auto;
+    width: 25%;
+    padding: 0 .5rem !important;
+}
+.fs-md-4{
+    font-size:1rem!important ;
+}
+.user_box{
+    height: 220px !important;
+}
+.map_box {
+    position: relative;
+    top: -28px;
+}
+.map_box img{
+    height: 288px;
+}
+    .statics_box span {
+        font-weight: 400;
+        font-size: 11px !important;
+        color: rgba(98, 98, 98, 1);
+        line-height: 9.95px;
+    }
+    .statics_box{
+        height: 40px;
+    }
+        #myPieChart {
+        width: 100% !important;
+        height: 160px !important;
+        }
+        #myChart{
+                width: 294px !important;
+        }
 }
 @media(min-width: 300px) and (max-width:500px) {
-    .col-custom {
-    flex: 0 0 auto;
-    width: 39%;
+       .col-custom {
+        flex: 0 0 auto;
+        width: 70%;
     }
+    .col-custom.gap-5 {
+            gap: 1rem !important;
+        }
+        .logo{
+            margin-top: -11px;
+        }
+        #myChart{
+            width: 100% !important;
+        }
+        #myBarChart{
+            width: 100% !important;
+        }
     .admin_siderbarr {
         width: 15%;
         display: none;
@@ -102,9 +148,42 @@
     align-items: center;
 }
 .dashboard_top h2 {
-    font-size: 22px;
+    font-size: 16px;
+    margin-bottom: -14px;
 }
 .dashboard_top p {
     line-height: 13px;
+    font-size: 9px;
 }
+.chart-container svg {
+    width: 60% !important;
+    height: 100% !important;
+}
+.map_table tbody tr td{
+    font-size: 10px ;
+}
+.map_table thead th {
+    font-size: 14px;
+}
+.login_page_form {
+    padding: 8px 20px;
+}
+.formheader h1 {
+    font-size: 23px;
+}
+.formheader p {
+    font-size: 13px;
+}
+}
+@media (min-width:350px) and (max-width:400px) {
+        .chart-container svg {
+        width: 46% !important;
+        height: 100% !important;
+    }
+}
+@media (min-width:400px) and (max-width:600px) {
+    .chart-container svg {
+        width: 39% !important;
+        height: 100% !important;
+    }
 }

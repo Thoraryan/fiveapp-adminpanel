@@ -266,12 +266,12 @@ $(document).ready(function () {
                     data: dataset1
                 },
                 {
-                    label: 'in Active',
+                    label: 'In Active',
                     backgroundColor: 'rgba(229, 25, 85, 1)',
                     data: dataset2
                 },
                 {
-                    label: 'user ',
+                    label: 'User',
                     backgroundColor: 'rgba(0, 162, 138, 1)',
                     data: dataset3
                 }
