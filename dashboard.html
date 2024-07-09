@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <meta charset="utf-8" />
+      <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+      <title>Five App</title>
+      <meta content="" name="description" />
+      <meta content="" name="keywords" />
+      <!-- Favicons -->
+      <link href="assets/img/favicon.png" rel="icon" />
+      <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+      <!-- Vendor CSS Files -->
+      <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+      <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+      <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+      <link href="assets/vendor/owl/owl.carousel.min.css" rel="stylesheet" />
+      <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.15.1/css/pro.min.css" />
+      <link href="assets/css/style.css" rel="stylesheet" />
+      <link rel="stylesheet" href="./assets/css/responsive.css">
+      <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+       <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+    <!-- Bootstrap Bundle (includes Popper.js) -->
+     
+   </head>
+
+   <body>
+      <div class="admin_header">
+         <div class="row justify-content-between align-items-center">
+            <div class="col-custom d-flex justify-content-between align-items-center">
+                  <button type="button" class="toggle" id="toggle">
+                  <span></span>
+                  </button>
+               <a class="logo" href="dashboard.html">
+                  <img src="assets/img/five.png" alt="">
+               </a>
+            </div>
+            <div class="col-auto">
+               <div class="col-auto d-flex align-items-center">
+                  <div class="dropdown Profile_dropdown">
+                     <button class="btn btn-secondary" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <img src="assets/img/user.png" alt="">
+                     </button>
+                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="view-profile.html">View Profile</a></li>
+                        <li><a class="dropdown-item" href="login.html">Logout</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="admin_main">
+         <div class="admin_siderbarr">
+            <a class="active" href="dashboard.html"><span><i class="fas fa-home"></i></span> Dashboard</a>
+            <a href="users-management.html"><span><i class="fas fa-users"></i></span> Users Management</a>
+            <a href="content-management.html"><span><i class="fas fa-pencil"></i></span> Content Management</a>
+            <a href="static-content-management.html"><span><i class="fas fa-edit"></i></span> Static Content</a>
+            <a href="help-&-support-management.html"><span><i class="fas fa-headset"></i></span> Help & Support</a>
+            <a href="contest-management.html"><span><i class="fas fa-trophy"></i></span> Contest Management</a>
+            <a href="login.html"><span><i class="fas fa-sign-out-alt"></i></span> Logout</a>
+         </div>
+         <div class="admin_contentpart">
+            <div class="row dashboard_main">
+               <div class="col-12 mb-md-4 mb-0">
+                  <div class="row dashboard_top">
+                     <div class="col">
+                        <h2>Hi Katie Pena </h2>
+                        <p>Welcome back to Rhombus CRM dashboard</p>
+                     </div>
+                     <div class="col-auto">
+                        <a class="download_btn" href="javascript:;"><img src="assets/img/Shape.png" alt=""> Download</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-12">
+                  <div class="row">
+                     <div class="col-md-3 col-12 mt-4 mt-md-0">
+                        <div class="bg-white rounded-3 py-4 px-4">
+                           <div class="statics_box w-100">
+                              <div class="">
+                                 <span class="mb-0 fs-6 fw-semibold">Total Post</span>
+                                 <h3 class="mb-0 fs-6 fw-bold">2344</h3>
+                              </div>
+                              <div class="card-icon-dash">
+                                 <i class="fas fa-project-diagram"></i>
+                              </div>
+                           </div>
+                           <div class="mb-0 mt-1">
+                              <div class="d-flex gap-2 align-items-center">
+                                 <div class="rate-card-green py-1 px-2 rounded-3">
+                                    <i class="fa fa-arrow-up"></i>
+                                    <span>13%</span>
+                                 </div>
+                                 <div class="rate-text-green">
+                                    <p class="fw-light mb-0">
+                                       Since last month
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-12 mt-4 mt-md-0">
+                        <div class="bg-white rounded-3 py-4 px-4">
+                           <div class="statics_box w-100">
+                              <div class="">
+                                 <span class="mb-0 fs-6 fw-semibold">Total Like</span>
+                                 <h3 class="mb-0 fs-6 fw-bold">2344</h3>
+                              </div>
+                              <div class="card-icon-dash">
+                                 <i class="fas fa-thumbs-up"></i>
+                              </div>
+                           </div>
+                           <div class="mb-0 mt-1">
+                              <div class="d-flex gap-2 align-items-center">
+                                 <div class="rate-card-red py-1 px-2 rounded-3">
+                                    <i class="fa fa-arrow-up"></i>
+                                    <span>11%</span>
+                                 </div>
+                                 <div class="rate-text-green">
+                                    <p class="fw-light mb-0">
+                                       Since last month
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-12 mt-4 mt-md-0">
+                        <div class="bg-white rounded-3 py-4 px-4">
+                           <div class="statics_box w-100">
+                              <div class="">
+                                 <span class="mb-0 fs-6 fw-semibold">Total Followers</span>
+                                 <h3 class="mb-0 fs-6 fw-bold">2344</h3>
+                              </div>
+                              <div class="card-icon-dash">
+                                 <i class="fas fa-users"></i>
+                              </div>
+                           </div>
+                           <div class="mb-0 mt-1">
+                              <div class="d-flex gap-2 align-items-center">
+                                 <div class="rate-card-light py-1 px-2 rounded-3">
+                                    <i class="fa fa-arrow-up"></i>
+                                    <span>13%</span>
+                                 </div>
+                                 <div class="rate-text-green">
+                                    <p class="fw-light mb-0">
+                                       Since last month
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-12 mt-4 mt-md-0">
+                        <div class="bg-white rounded-3 py-4 px-4">
+                           <div class="statics_box w-100">
+                              <div class="">
+                                 <span class="mb-0 fs-6 fw-semibold">Total Comments</span>
+                                 <h3 class="mb-0 fs-6 fw-bold">2344</h3>
+                              </div>
+                              <div class="card-icon-dash">
+                                 <i class="fas fa-comments"></i>
+                              </div>
+                           </div>
+                           <div class="mb-0 mt-1">
+                              <div class="d-flex gap-2 align-items-center">
+                                 <div class="rate-card-green py-1 px-2 rounded-3">
+                                    <i class="fa fa-arrow-up"></i>
+                                    <span>13%</span>
+                                 </div>
+                                 <div class="rate-text-green">
+                                    <p class="fw-light mb-0">
+                                       Since last month
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- <div class="col-md-3 d-flex align-items-stretch">
+                        <div class="statics_box w-100">
+                           <div class="">
+                              <span class="mb-0 fs-6 fw-semibold">Total Post</span>
+                              <h3 class="mb-0 fs-6 fw-bold">2344</h3>
+                           </div>
+                           <div class="card-icon-dash">
+                              <i class="fas fa-project-diagram"></i>
+                           </div>
+                        </div>
+                     </div> 
+                     <div class="col-md-3 d-flex align-items-stretch">
+                        <div class="statics_box w-100">
+                           <div class="">
+                              <span class="mb-0 fs-6 fw-semibold">Total Post</span>
+                              <h3 class="mb-0 fs-6 fw-bold">2344</h3>
+                           </div>
+                           <div class="card-icon-dash">
+                              <i class="fas fa-project-diagram"></i>
+                           </div>
+                        </div>
+                     </div>  -->
+                  </div>
+               </div>
+               <div class="col-12 mt-4 mb-4 h-100">
+                  <div class="row">
+                     <div class="col-lg-6 col-md-6 col-12 h-100 mt-4 mt-md-0 user-chart">
+                        <div class="user_box card rounded-4 border-0 py-4 h-100">
+                           <div class="topuser_pie row">
+                              <div class="col-md-6 col-5 mt-2 mt-md-0 px-4">
+                                  <div class="topuser">
+                                    <span>Total User</span>
+                                    <h3>4,209</h3>
+                                 </div>
+                                 <div class="pie_content">
+                                    <a class="active" href="javascript:;">62% <span>New</span></a>
+                                    <a href="javascript:;">13% <span>Active User</span></a>
+                                    <!-- <a class="active" href="javascript:;">82% <span>Old</span></a> -->
+                                    <a href="javascript:;">13% <span>InActive User</span></a>
+                                 </div>
+                              </div>
+                              <div class="col-md-6 col-7 mt-2 mt-md-0">
+                                 <div class="">
+                                       <canvas id="myPieChart" class="w-100 h-100 mt-2 mt-md-0 mt-lg-2"></canvas>
+                                 </div>
+                                 <!-- <div class="pie_chart">
+                                    <img src="assets/img/pie.png" alt="">
+                                 </div> -->
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-6 col-md-6 col-12 h-100 mt-4 mt-md-0">
+                       <div class="card border-0 rounded-4 h-100">
+                         <div class="user_box">
+                           <div class="topuser_pie row">
+                              <div class="col-6 px-4">
+                                 <div class="topuser">
+                                    <span>Engagement Overview</span>
+                                    <h3>1,678</h3>
+                                 </div>
+                                 <div class="pie_content">
+                                    <a class="active" href="javascript:;">62% <span>Likes</span></a>
+                                    <a href="javascript:;">13% <span>Comments</span></a>
+                                    <a href="javascript:;">13% <span>Shares</span></a>
+                                 </div>
+                              </div>
+                              <div class="col-6">
+                                 <div class="w-100 h-100">
+                                    <!-- <div class="header">Site Visitors</div> -->
+                                    <div id="chart" class="chart-container w-100"></div>
+                                 </div>
+                                 <!-- <div class="pie_chart">
+                                    <img src="assets/img/pie.png" alt="">
+                                 </div> -->
+                              </div>
+                           </div>
+                        </div>
+                       </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-6 col-md-6 col-12 mb-4">
+                  <div class="row graphbox mx-0">
+                     <div class="col-12">
+                        <div class="dashboard_head">
+                           <h2>Growth </h2>
+                        </div>
+                     </div>
+                     <div class="col-12 ">
+                        <div class="py-4 px-4">
+                           <canvas id="myChart" class="border-0" style="width:100%;max-width:600px"></canvas>
+                        </div>
+                        <!-- PUT YOUR GRAPH CODE HERE  -->
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-6 col-md-6 col-12 mb-4">
+                  <div class="row graphbox mx-0">
+                     <div class="col-12">
+                        <div class="dashboard_head">
+                           <h2>Content </h2>
+                        </div>
+                     </div>
+                     <div class="col-12 py-4 px-4">
+                        <!-- PUT YOUR GRAPH CODE HERE  -->
+                           <div class="py-4 px-4">
+                             <canvas id="myBarChart"></canvas>
+                           </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-6 col-md-4 col-12 mb-4">
+                  <div class="row dashboardmain mx-0">
+                     <div class="col-12">
+                        <div class="dashboard_head">
+                           <h2>Awards & Rewards</h2>
+                        </div>
+                     </div>
+                     <div class="col-12 pt-2">
+                        <div class="row awardsrewards">
+                           <div class="col-auto">
+                              <div class="awardsrewards_img">
+                                 <img src="assets/img/award1.png" alt="">
+                              </div>
+                           </div>
+                           <div class="col ps-0">
+                              <h3>Gold (Awards)</h3>
+                           </div>
+                           <div class="col-auto">
+                              <div class="totalcount">1345</div>
+                           </div>
+                        </div>
+                        <div class="row awardsrewards">
+                           <div class="col-auto">
+                              <div class="awardsrewards_img">
+                                 <img src="assets/img/award2.png" alt="">
+                              </div>
+                           </div>
+                           <div class="col ps-0">
+                              <h3>Silver (Awards)</h3>
+                           </div>
+                           <div class="col-auto">
+                              <div class="totalcount">1345</div>
+                           </div>
+                        </div>
+                        <div class="row awardsrewards">
+                           <div class="col-auto">
+                              <div class="awardsrewards_img">
+                                 <img src="assets/img/award3.png" alt="">
+                              </div>
+                           </div>
+                           <div class="col ps-0">
+                              <h3>Master (Awards)</h3>
+                           </div>
+                           <div class="col-auto">
+                              <div class="totalcount">1345</div>
+                           </div>
+                        </div>
+                        <div class="row awardsrewards">
+                           <div class="col-auto">
+                              <div class="awardsrewards_img">
+                                 <img src="assets/img/award4.png" alt="">
+                              </div>
+                           </div>
+                           <div class="col ps-0">
+                              <h3>Master</h3>
+                           </div>
+                           <div class="col-auto">
+                              <div class="totalcount">1345</div>
+                           </div>
+                        </div>
+                        <div class="row awardsrewards">
+                           <div class="col-auto">
+                              <div class="awardsrewards_img">
+                                 <img src="assets/img/award5.png" alt="">
+                              </div>
+                           </div>
+                           <div class="col ps-0">
+                              <h3>Gold</h3>
+                           </div>
+                           <div class="col-auto">
+                              <div class="totalcount">1345</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-4 col-12 mb-4">
+                  <div class="row dashboardmain mx-0">
+                     <div class="col-12">
+                        <div class="dashboard_head">
+                           <h2>Activity</h2>
+                        </div>
+                     </div>
+                     <div class="col-12 pt-2">
+                        <div class="row awardsrewards Activity_box">
+                           <div class="col">
+                              <h3>Total Posts</h3>
+                           </div>
+                           <div class="col-auto">
+                              <div class="totalcount">1345</div>
+                           </div>
+                        </div>
+                        <div class="row awardsrewards Activity_box">
+                           <div class="col">
+                              <h3>Total Live Posts</h3>
+                           </div>
+                           <div class="col-auto">
+                              <div class="totalcount">1345</div>
+                           </div>
+                        </div>
+                        <div class="row awardsrewards Activity_box">
+                           <div class="col">
+                              <h3>Total Challenges</h3>
+                           </div>
+                           <div class="col-auto">
+                              <div class="totalcount">1345</div>
+                           </div>
+                        </div>
+                        <div class="row awardsrewards Activity_box">
+                           <div class="col">
+                              <h3>Total Live Challenges</h3>
+                           </div>
+                           <div class="col-auto">
+                              <div class="totalcount">1345</div>
+                           </div>
+                        </div>
+                        <div class="row awardsrewards Activity_box">
+                           <div class="col">
+                              <h3>Total Comments</h3>
+                           </div>
+                           <div class="col-auto">
+                              <div class="totalcount">1345</div>
+                           </div>
+                        </div>
+                        <div class="row awardsrewards Activity_box">
+                           <div class="col">
+                              <h3>Total Comments Liked</h3>
+                           </div>
+                           <div class="col-auto">
+                              <div class="totalcount">1345</div>
+                           </div>
+                        </div>
+                        <div class="row awardsrewards Activity_box">
+                           <div class="col">
+                              <h3>Total Likes</h3>
+                           </div>
+                           <div class="col-auto">
+                              <div class="totalcount">1345</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-4 col-12 mb-4">
+                  <div class="row dashboardmain mx-0">
+                     <div class="col-12">
+                        <div class="dashboard_head">
+                           <h2>Activity</h2>
+                        </div>
+                     </div>
+                     <div class="col-12 pt-2">
+                        <div class="row awardsrewards Activity_box">
+                           <div class="col">
+                              <h3>Total Photos</h3>
+                           </div>
+                           <div class="col-auto">
+                              <div class="totalcount">1345</div>
+                           </div>
+                        </div>
+                        <div class="row awardsrewards Activity_box">
+                           <div class="col">
+                              <h3>Total Videos</h3>
+                           </div>
+                           <div class="col-auto">
+                              <div class="totalcount">1345</div>
+                           </div>
+                        </div>
+                        <div class="row awardsrewards Activity_box">
+                           <div class="col">
+                              <h3>Total Rewards</h3>
+                           </div>
+                           <div class="col-auto">
+                              <div class="totalcount">1345</div>
+                           </div>
+                        </div>
+                        <div class="row awardsrewards Activity_box">
+                           <div class="col">
+                              <h3>Total Awards</h3>
+                           </div>
+                           <div class="col-auto">
+                              <div class="totalcount">1345</div>
+                           </div>
+                        </div>
+                        <div class="row awardsrewards Activity_box">
+                           <div class="col">
+                              <h3>Total Users</h3>
+                           </div>
+                           <div class="col-auto">
+                              <div class="totalcount">1345</div>
+                           </div>
+                        </div>
+                        <div class="row awardsrewards Activity_box">
+                           <div class="col">
+                              <h3>Total Active Users</h3>
+                           </div>
+                           <div class="col-auto">
+                              <div class="totalcount">1345</div>
+                           </div>
+                        </div>
+                        <div class="row awardsrewards Activity_box">
+                           <div class="col">
+                              <h3>Total Users Registered</h3>
+                           </div>
+                           <div class="col-auto">
+                              <div class="totalcount">1345</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-12 mb-4">
+                  <div class="row dashboardmain2 mx-0 align-items-end">
+                     <div class="col-12">
+                        <div class="dashboard_head">
+                           <h2>User Demographics</h2>
+                        </div>
+                     </div>
+                     <div class="col-lg-8 col-md-6 col-12">
+                        <div class="map_box py-4">
+                           <img src="assets/img/WorldMap.png" alt="">
+                        </div>
+                     </div>
+                     <div class="col-lg-4 col-md-6 col-12">
+                        <div class="table-responsive">
+                           <table class="table map_table">
+                              <thead>
+                                 <tr>
+                                    <th>Country</th>
+                                    <th>Visitors</th>
+                                    <th>% Users</th>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <tr>
+                                    <td>
+                                       <span class="circle color_1"></span> India
+                                    </td>
+                                    <td>
+                                       1,545,567
+                                    </td>
+                                    <td>
+                                       30%
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td>
+                                       <span class="circle color_2"></span> India
+                                    </td>
+                                    <td>
+                                       1,545,567
+                                    </td>
+                                    <td>
+                                       30%
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td>
+                                       <span class="circle color_3"></span> Russia
+                                    </td>
+                                    <td>
+                                       1,545,567
+                                    </td>
+                                    <td>
+                                       30%
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td>
+                                       <span class="circle color_4"></span> Australia
+                                    </td>
+                                    <td>
+                                       1,545,567
+                                    </td>
+                                    <td>
+                                       30%
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td>
+                                       <span class="circle color_5"></span> India
+                                    </td>
+                                    <td>
+                                       1,545,567
+                                    </td>
+                                    <td>
+                                       30%
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td>
+                                       <span class="circle color_4"></span> Australia
+                                    </td>
+                                    <td>
+                                       1,545,567
+                                    </td>
+                                    <td>
+                                       30%
+                                    </td>
+                                 </tr>
+
+                              </tbody>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script src="assets/vendor/jquery.min.js"></script>
+      <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/vendor/owl/owl.carousel.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+      <script src="assets/js/main.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+   </body>
+
+</html>

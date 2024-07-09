@@ -1,0 +1,110 @@
+@media(min-width: 500px) and (max-width:900px) {
+    .admin_siderbarr {
+        width: 7%;
+    }
+
+    .admin_siderbarr a {
+        display: flex;
+        width: 100%;
+        overflow: hidden;
+        margin-left: -16px;
+    }
+
+    .admin_siderbarr a span {
+        width: 60px;
+        padding: 0px 45px;
+        margin-left: -56px;
+        font-size: 22px;
+    }
+
+    .admin_contentpart {
+        width: 93%;
+    }
+
+    .sidebarshow {
+        width: 36% !important;
+        transition: width .6s ease-in-out;
+        position: absolute;
+        z-index: 50;
+    }
+
+    .content-part-width {
+        width: 100% !important;
+        transition: width .6s ease-in-out;
+    }
+    .rate-text-green p{
+        font-size: 12px;
+    line-height: 9px;
+    }
+    .rate-card-green ,.rate-card-red ,.rate-card-light{
+    color: #fff;
+    font-size: 8px;
+    padding: 2px 2px !important;
+}
+.statics_box span {
+    font-weight: 400;
+    font-size: 11px !important;
+    color: rgba(98, 98, 98, 1);
+    line-height: 4.95px;
+}
+.content-part-width .user-chart{
+    height: 100% !important;
+}
+#myPieChart {
+    width: 139px !important;
+    height: 157px !important;
+    /* margin-top: -39px; */
+}
+.dashboardmain {
+    height: 297px;
+}
+}
+@media(min-width: 300px) and (max-width:500px) {
+    .col-custom {
+    flex: 0 0 auto;
+    width: 39%;
+    }
+    .admin_siderbarr {
+        width: 15%;
+        display: none;
+    }
+
+    .admin_siderbarr a {
+        display: flex;
+        width: 100%;
+        overflow: hidden;
+        margin-left: -16px;
+    }
+
+    .admin_siderbarr a span {
+        width: 60px;
+        padding: 0px 45px;
+        margin-left: -56px;
+        font-size: 22px;
+    }
+
+    .admin_contentpart {
+        width: 100%;
+    }
+
+    .sidebarshow {
+        display: block !important;
+        width:100% !important;
+        transition: all .6s ease-in-out;
+        position: absolute;
+        z-index: 50;
+    }
+
+.dashboardmain {
+    height: 297px;
+}
+.dashboard_top{
+    align-items: center;
+}
+.dashboard_top h2 {
+    font-size: 22px;
+}
+.dashboard_top p {
+    line-height: 13px;
+}
+}

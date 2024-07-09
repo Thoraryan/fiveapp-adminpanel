@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+      <title>Five App</title>
+      <meta content="" name="description" />
+      <meta content="" name="keywords" />
+      <!-- Favicons -->
+      <link href="assets/img/favicon.png" rel="icon" />
+      <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+      <!-- Vendor CSS Files -->
+      <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+      <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+      <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+      <link href="assets/vendor/owl/owl.carousel.min.css" rel="stylesheet" />
+      <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.15.1/css/pro.min.css"/>
+      <link href="assets/css/style.css" rel="stylesheet" />
+   </head>
+   <body>
+      <div class="admin_header">
+         <div class="row justify-content-between align-items-center">
+            <div class="col-2 text-center">
+               <a class="logo" href="dashboard.html">
+                  <img src="assets/img/five.png" alt="">
+               </a>
+            </div>
+            <div class="col-auto">
+               <div class="col-auto d-flex align-items-center"> 
+                  <div class="dropdown Profile_dropdown">
+                     <button class="btn btn-secondary" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                     <img src="assets/img/user.png" alt="">
+                     </button>
+                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="view-profile.html">View Profile</a></li>
+                        <li><a class="dropdown-item" href="login.html">Logout</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div> 
+      <div class="admin_main">
+         <div class="admin_siderbarr">
+            <a href="dashboard.html"><span><i class="fas fa-home"></i></span> Dashboard</a>
+            <a href="users-management.html"><span><i class="fas fa-users"></i></span> Users Management</a>
+            <a class="active" href="content-management.html"><span><i class="fas fa-pencil"></i></span> Content Management</a>
+            <a href="static-content-management.html"><span><i class="fas fa-edit"></i></span> Static Content</a>
+            <a href="help-&-support-management.html"><span><i class="fas fa-headset"></i></span> Help & Support</a>
+            <a href="contest-management.html"><span><i class="fas fa-trophy"></i></span> Contest Management</a>
+            <a href="login.html"><span><i class="fas fa-sign-out-alt"></i></span> Logout</a> 
+         </div>
+         <div class="admin_contentpart"> 
+            <div class="row mb-4">
+               <div class="col-auto">
+                  <a class="back_btn" href="content-management.html"><i class="fas fa-arrow-left"></i></a>
+               </div>
+             </div>
+            <div class="row comman_design mx-0">
+               <div class="col-12">
+                  <div class="row align-items-center justify-content-between py-4 px-3">
+                      <div class="col-auto">
+                        <div class="headleft">
+                           <h2>Live Post
+                           </h2>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <div class="searchh_box position-relative">
+									<input class="form-control" type="search" placeholder="Search">
+									<button><i class="fas fa-search"></i></button>
+								</div>
+                      </div>
+                  </div>
+               </div>
+               <div class="col-12">
+                  <div class="row comman_table pt-3 pb-4 px-3">
+                     <div class="col-12">
+                        <div class="table-responsive">
+                           <table class="table table-hover">
+                              <thead>
+                                 <tr>
+                                    <th>S.No.</th>
+                                    <th>POST ID</th> 
+                                    <th>USER ID</th> 
+                                    <th>USERNAME</th>    
+                                    <th>POST CONTENT</th>   
+                                    <th>POST DATE</th>   
+                                    <th>LIKES</th>   
+                                    <th>COMMENTS</th>   
+                                    <th>STATUS</th>   
+                                    <th>ACTION</th>   
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <tr>
+                                    <td>1</td>
+                                    <td>6001</td> 
+                                    <td>5001</td>
+                                    <td>Jennifer Garcia</td>  
+                                    <td>Check out this amazing sunset</td>  
+                                    <td>2024-02-15</td>  
+                                    <td>50</td>  
+                                    <td>10</td>   
+                                    <td>
+                                       <div class="text-success">
+                                          Live
+                                       </div>
+                                    </td>
+                                    <td>
+                                       <div class="d-flex"> 
+                                          <a href="live-post-details.html" class="Table_btn me-2"><i class="fa fa-eye"></i></a>
+                                          <a href="javascript:;" class="Table_btn"><i class="fa fa-trash"></i></a>
+                                       </div>
+                                    </td>
+                                 </tr> 
+                                 <tr>
+                                    <td>2</td>
+                                    <td>6001</td> 
+                                    <td>5001</td>
+                                    <td>Jennifer Garcia</td>  
+                                    <td>Check out this amazing sunset</td>  
+                                    <td>2024-02-15</td>  
+                                    <td>50</td>  
+                                    <td>10</td>   
+                                    <td>
+                                       <div class="text-success">
+                                          Live
+                                       </div>
+                                    </td>
+                                    <td>
+                                       <div class="d-flex"> 
+                                          <a href="live-post-details.html" class="Table_btn me-2"><i class="fa fa-eye"></i></a>
+                                          <a href="javascript:;" class="Table_btn"><i class="fa fa-trash"></i></a>
+                                       </div>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td>3</td>
+                                    <td>6001</td> 
+                                    <td>5001</td>
+                                    <td>Jennifer Garcia</td>  
+                                    <td>Check out this amazing sunset</td>  
+                                    <td>2024-02-15</td>  
+                                    <td>50</td>  
+                                    <td>10</td>   
+                                    <td>
+                                       <div class="text-success">
+                                          Live
+                                       </div>
+                                    </td>
+                                    <td>
+                                       <div class="d-flex"> 
+                                          <a href="live-post-details.html" class="Table_btn me-2"><i class="fa fa-eye"></i></a>
+                                          <a href="javascript:;" class="Table_btn"><i class="fa fa-trash"></i></a>
+                                       </div>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td>4</td>
+                                    <td>6001</td> 
+                                    <td>5001</td>
+                                    <td>Jennifer Garcia</td>  
+                                    <td>Check out this amazing sunset</td>  
+                                    <td>2024-02-15</td>  
+                                    <td>50</td>  
+                                    <td>10</td>   
+                                    <td>
+                                       <div class="text-success">
+                                          Live
+                                       </div>
+                                    </td>
+                                    <td>
+                                       <div class="d-flex"> 
+                                          <a href="live-post-details.html" class="Table_btn me-2"><i class="fa fa-eye"></i></a>
+                                          <a href="javascript:;" class="Table_btn"><i class="fa fa-trash"></i></a>
+                                       </div>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td>5</td>
+                                    <td>6001</td> 
+                                    <td>5001</td>
+                                    <td>Jennifer Garcia</td>  
+                                    <td>Check out this amazing sunset</td>  
+                                    <td>2024-02-15</td>  
+                                    <td>50</td>  
+                                    <td>10</td>   
+                                    <td>
+                                       <div class="text-success">
+                                          Live
+                                       </div>
+                                    </td>
+                                    <td>
+                                       <div class="d-flex"> 
+                                          <a href="live-post-details.html" class="Table_btn me-2"><i class="fa fa-eye"></i></a>
+                                          <a href="javascript:;" class="Table_btn"><i class="fa fa-trash"></i></a>
+                                       </div>
+                                    </td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                           <!-- <div class="d-flex align-items-center justify-content-between flex-wrap pt-3 pb-3">
+                              <span>Page 1 of 5, showing 2 records out of 8 total, starting on record 1, ending on 2</span>
+                              <nav aria-label="Page navigation example">
+                                <ul class="pagination mb-2 mb-sm-0">
+                                 <li class="page-item"><a class="page-link" href="javascript:void(0);">&#10092;</a></li>
+                                 <li class="page-item"><a class="page-link" href="javascript:void(0);">1</a></li>
+                                 <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+                                 <li class="page-item"><a class="page-link" href="javascript:void(0);">3</a></li>
+                                 <li class="page-item"><a class="page-link " href="javascript:void(0);">&#10093;</a></li>
+                                </ul>
+                              </nav>
+                           </div> -->
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div> 
+      <script src="assets/vendor/jquery.min.js"></script>
+      <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/vendor/owl/owl.carousel.min.js"></script> 
+      <script src="assets/js/main.js"></script> 
+   </body>
+</html>
