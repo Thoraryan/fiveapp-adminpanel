@@ -92,6 +92,30 @@
         #myChart{
                 width: 294px !important;
         }
+        .login_page_form{
+            padding: 20px 20px !important;
+        }
+        .user_info span{
+            font-size: 18px;
+        }   
+            .user-image {
+                position: sticky;
+                transform: translate(111%, -74%);
+                width: 200px;
+                height: 200px;
+                border-radius: 100%;
+            }
+        .user-image img{
+            width: 100%;
+            height: 100%;
+            border-radius: 100%;
+        }
+     .fs-md-9{
+        font-size: 1.5rem !important;
+     }
+     .fs-md-10{
+        font-size: 1.25rem !important;
+     }
 }
 @media(min-width: 300px) and (max-width:500px) {
        .col-custom {
@@ -174,11 +198,60 @@
 .formheader p {
     font-size: 13px;
 }
+.user_info span{
+    font-size: 14px;
+}
+.user-image {
+    position: sticky;
+    transform: translate(69%, -23%);
+    width: 128px;
+    height: 128px;
+    border-radius: 100%;
+}
+.user-image-wrapper {
+    height: 9.5rem;
+}
+.user-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+   .mobile-nav-profile{
+            width: 100%;
+            display: flex !important;
+            white-space: nowrap;
+            flex-wrap: nowrap;
+            overflow-x: scroll;
+        }
+        .fs-sm-9{
+            font-size: 14px !important;
+        }
 }
 @media (min-width:350px) and (max-width:400px) {
         .chart-container svg {
         width: 46% !important;
         height: 100% !important;
+    }
+}
+@media (min-width:320px) and (max-width:375px) {
+
+        .user-image {
+            position: sticky;
+            transform: translate(47%, -15%);
+    }
+}
+@media (min-width:370px) and (max-width:425px) {
+
+        .user-image {
+            position: sticky;
+            transform: translate(67%, -23%);
+    }
+}
+@media (min-width:425px) and (max-width:600px) {
+
+        .user-image {
+            position: sticky;
+            transform: translate(94%, -37%);
     }
 }
 @media (min-width:400px) and (max-width:600px) {
